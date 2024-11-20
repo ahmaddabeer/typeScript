@@ -1,0 +1,9 @@
+/*
+Make a ts file 
+Run it with ts 
+js file will be generated 
+make html file 
+add js file in html file
+and on chrome 
+
+ */
