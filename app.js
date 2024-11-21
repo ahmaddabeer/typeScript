@@ -1,5 +1,8 @@
-//Union types
-var data = "anil";
-data = 56;
-data = true;
-console.log(data);
+var users = {
+    name: 'anil sidhu',
+    age: 33,
+    getName: function () {
+        return "anil sidhu";
+    }
+};
+console.log(users.getName());
