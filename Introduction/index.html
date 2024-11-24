@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeScript Introduction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TypeScript Introduction (Short & Simple)</h1>
+        <section>
+            <h2>What is TypeScript?</h2>
+            <ul>
+                <li>TypeScript is a <b>superset of JavaScript</b> developed by Microsoft.</li>
+                <li>It adds <b>static typing</b> to JavaScript, making it easier to catch errors during development.</li>
+                <li>TypeScript code compiles (transpiles) to plain JavaScript.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Key Features:</h2>
+            <ul>
+                <li><b>Static Typing</b>: Variables have defined types like <code>number</code>, <code>string</code>, <code>boolean</code>, etc.</li>
+                <li><b>Better Tooling</b>: Offers auto-completion, refactoring, and error-checking in IDEs.</li>
+                <li><b>Type Inference</b>: Automatically infers types if not explicitly defined.</li>
+                <li><b>Optional Typing</b>: You can use TypeScript with or without strict typing.</li>
+                <li><b>Supports Modern JS Features</b>: Fully supports ES6+ features like arrow functions, async/await, and modules.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Why Use TypeScript?</h2>
+            <ul>
+                <li><b>Error Prevention</b>: Detects errors at compile-time rather than runtime.</li>
+                <li><b>Readability and Maintainability</b>: Clearer and well-structured code.</li>
+                <li><b>Scalability</b>: Best for large projects where bugs can occur due to dynamic typing in JavaScript.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Syntax Basics:</h2>
+            <pre>
+<code class="typescript">
+// Variable typing
+let age: number = 25; // Explicit type
+let name = "John"; // Type inferred as string
+
+// Function with typed parameters and return type
+function add(x: number, y: number): number {
+    return x + y;
+}
+
+// Interface
+interface Person {
+    name: string;
+    age: number;
+}
+
+let user: Person = { name: "Alice", age: 30 };
+            </code>
+            </pre>
+        </section>
+        <section>
+            <h2>How to Use TypeScript:</h2>
+            <ul>
+                <li>Install TypeScript: <code>npm install -g typescript</code></li>
+                <li>Create a <code>.ts</code> file and write TypeScript code.</li>
+                <li>Compile TypeScript to JavaScript: <code>tsc file.ts</code></li>
+                <li>Run the resulting <code>.js</code> file using Node.js or a browser.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Main Benefits:</h2>
+            <ul>
+                <li><b>Type Safety</b>: Avoid common bugs.</li>
+                <li><b>Editor Support</b>: Works seamlessly with VS Code.</li>
+                <li><b>Improved Collaboration</b>: Easy to understand code in teams.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>When to Use TypeScript?</h2>
+            <ul>
+                <li>For medium to large projects.</li>
+                <li>When working in a team.</li>
+                <li>When you need clean and maintainable code.</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
